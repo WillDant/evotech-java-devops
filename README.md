@@ -1,3 +1,80 @@
+README: PARTE DEVOPS
+
+**Link do DockerHub:** [willdant/evotech2.0](https://hub.docker.com/repository/docker/willdant/evotech2.0/general)
+
+Link do vídeo: https://youtu.be/5gx1yScwlss
+
+## Criação da VM
+
+Tendo em vista a estrutura planejada, seguimos com os próximos passos:
+
+
+## Criação do nosso Resource Group
+
+As dependências necessárias foram configuradas, incluindo o monitoramento da saúde da VM, desempenho e dependências de rede
+
+
+### Link do Projeto (Java API) com Docker
+
+[Repositório do Projeto no GitHub](https://github.com/WillDant/evotech-java-devops.git)
+
+---
+
+## Instruções para Rodar o Projeto Spring Boot com Docker
+
+### Clonando o Repositório
+
+Clone o repositório em seu ambiente local:
+
+```bash
+git clone <https://github.com/WillDant/evotech-java-devops.git>
+cd evotech-java-devops
+
+```
+
+### Rodando o Projeto com Docker
+
+### Passo 1: Rodando a Imagem Docker
+
+Agora, vamos puxar a última versão da imagem Docker do repositório Evotech. Certifique-se de estar no diretório raiz do projeto e execute:
+
+sudo docker pull willdant/evotech2.0:latest
+sudo docker run willdant/evotech2.0:latest
+
+Isso fará o download da imagem mais recente do DockerHub e executará o container.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # API Gestão de Clientes ODONTOPREV
 
 ## 1. Apresentação do Grupo
